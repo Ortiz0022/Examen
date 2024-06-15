@@ -1,0 +1,380 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\examenfinal\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|solutionrelative:examenfinal\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\examenfinal\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|solutionrelative:examenfinal\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\examenfinal\\controllers\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|solutionrelative:examenfinal\\controllers\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\examenfinal\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|solutionrelative:examenfinal\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\examenfinal\\controllers\\majorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B799B2-C706-48AF-967D-62A83E0A6731}|ExamenFinal\\ExamenFinal.csproj|solutionrelative:examenfinal\\controllers\\majorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_enrollment\\svenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_enrollment\\svenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_enrollment\\isvenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_enrollment\\isvenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_student\\svstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_student\\svstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_student\\isvstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_student\\isvstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_level\\svlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_level\\svlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_level\\isvlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_level\\isvlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_course\\svcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_course\\svcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_course\\isvcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_course\\isvcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_major\\svmajor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_major\\svmajor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\service\\c_major\\isvmajor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184B310-3167-454D-86E1-D4E2694A183C}|Service\\Service.csproj|solutionrelative:service\\c_major\\isvmajor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|solutionrelative:entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|solutionrelative:entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\entities\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|solutionrelative:entities\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|solutionrelative:entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|c:\\users\\ang\u00E9lica\\desktop\\examenfinal\\entities\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E5B869-9DE5-40BB-8D67-362AB8C88FF5}|Entities\\Entities.csproj|solutionrelative:entities\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "ExamenFinal\\Controllers\\EnrollmentController.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "ExamenFinal\\Controllers\\EnrollmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:54:40.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "ExamenFinal\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "ExamenFinal\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:54:21.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LevelController.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\LevelController.cs",
+              "RelativeDocumentMoniker": "ExamenFinal\\Controllers\\LevelController.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\LevelController.cs",
+              "RelativeToolTip": "ExamenFinal\\Controllers\\LevelController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:54:06.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "ExamenFinal\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "ExamenFinal\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:53:50.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MajorController.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\MajorController.cs",
+              "RelativeDocumentMoniker": "ExamenFinal\\Controllers\\MajorController.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\ExamenFinal\\Controllers\\MajorController.cs",
+              "RelativeToolTip": "ExamenFinal\\Controllers\\MajorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:53:11.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SvEnrollment.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Enrollment\\SvEnrollment.cs",
+              "RelativeDocumentMoniker": "Service\\C_Enrollment\\SvEnrollment.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Enrollment\\SvEnrollment.cs",
+              "RelativeToolTip": "Service\\C_Enrollment\\SvEnrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:52:28.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISvEnrollment.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Enrollment\\ISvEnrollment.cs",
+              "RelativeDocumentMoniker": "Service\\C_Enrollment\\ISvEnrollment.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Enrollment\\ISvEnrollment.cs",
+              "RelativeToolTip": "Service\\C_Enrollment\\ISvEnrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:52:12.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SvStudent.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Student\\SvStudent.cs",
+              "RelativeDocumentMoniker": "Service\\C_Student\\SvStudent.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Student\\SvStudent.cs",
+              "RelativeToolTip": "Service\\C_Student\\SvStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:51:29.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISvStudent.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Student\\ISvStudent.cs",
+              "RelativeDocumentMoniker": "Service\\C_Student\\ISvStudent.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Student\\ISvStudent.cs",
+              "RelativeToolTip": "Service\\C_Student\\ISvStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:51:07.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SvLevel.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Level\\SvLevel.cs",
+              "RelativeDocumentMoniker": "Service\\C_Level\\SvLevel.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Level\\SvLevel.cs",
+              "RelativeToolTip": "Service\\C_Level\\SvLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:50:41.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ISvLevel.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Level\\ISvLevel.cs",
+              "RelativeDocumentMoniker": "Service\\C_Level\\ISvLevel.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Level\\ISvLevel.cs",
+              "RelativeToolTip": "Service\\C_Level\\ISvLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:50:26.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SvCourse.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Course\\SvCourse.cs",
+              "RelativeDocumentMoniker": "Service\\C_Course\\SvCourse.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Course\\SvCourse.cs",
+              "RelativeToolTip": "Service\\C_Course\\SvCourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:50:01.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISvCourse.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Course\\ISvCourse.cs",
+              "RelativeDocumentMoniker": "Service\\C_Course\\ISvCourse.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Course\\ISvCourse.cs",
+              "RelativeToolTip": "Service\\C_Course\\ISvCourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:49:46.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SvMajor.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Major\\SvMajor.cs",
+              "RelativeDocumentMoniker": "Service\\C_Major\\SvMajor.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Major\\SvMajor.cs",
+              "RelativeToolTip": "Service\\C_Major\\SvMajor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:49:18.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ISvMajor.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Major\\ISvMajor.cs",
+              "RelativeDocumentMoniker": "Service\\C_Major\\ISvMajor.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Service\\C_Major\\ISvMajor.cs",
+              "RelativeToolTip": "Service\\C_Major\\ISvMajor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:49:05.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Entities\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Enrollment.cs",
+              "RelativeToolTip": "Entities\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:47:39.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Student.cs",
+              "RelativeToolTip": "Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:47:15.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Level.cs",
+              "RelativeDocumentMoniker": "Entities\\Level.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Level.cs",
+              "RelativeToolTip": "Entities\\Level.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:47:03.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "Entities\\Course.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Course.cs",
+              "RelativeToolTip": "Entities\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:46:53.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Major.cs",
+              "DocumentMoniker": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Major.cs",
+              "RelativeDocumentMoniker": "Entities\\Major.cs",
+              "ToolTip": "C:\\Users\\Ang\u00E9lica\\Desktop\\ExamenFinal\\Entities\\Major.cs",
+              "RelativeToolTip": "Entities\\Major.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:46:38.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
