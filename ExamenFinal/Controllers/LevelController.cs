@@ -1,43 +1,35 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Entities;
+using Microsoft.AspNetCore.Mvc;
+using Service.C_Level;
+using System.Reflection.Emit;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace ExamenFinal.Controllers
+namespace API_PruebaEF.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class LevelController : ControllerBase
     {
-        // GET: api/<LevelController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private ISvLevel svLevel;
+        public LevelController(ISvLevel svLevel)
         {
-            return new string[] { "value1", "value2" };
+            this.svLevel = svLevel;
+        }
+        [HttpGet]
+        public IEnumerable<Level> Get()
+        {
+            return svLevel.GetAllLevel();
         }
 
-        // GET api/<LevelController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
 
         // POST api/<LevelController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Level level)
         {
+            svLevel.Add_Level(level);
+
         }
 
-        // PUT api/<LevelController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<LevelController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }

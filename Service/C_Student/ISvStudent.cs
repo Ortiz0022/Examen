@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entities;
 
 namespace Service.C_Student
 {
-    internal interface ISvStudent
+    public interface ISvStudent
     {
+        public List<Student> GetAllStudents();
+        public Student Add_Students(Student student);
+
+        public Student Get_ById(int id);
     }
 }

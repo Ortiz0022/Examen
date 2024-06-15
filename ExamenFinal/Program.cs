@@ -1,4 +1,20 @@
+using Service.C_Student;
+using Service.C_Course;
+using Service.C_Major;
+using Service.C_Level;
+using Service.C_Enrollment;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddScoped<ISvCourse, SvCourse>();
+builder.Services.AddScoped<ISvLevel, SvLevel>();
+builder.Services.AddScoped<ISvMajor, SvMajor>();
+builder.Services.AddScoped<ISvStudent, SvStudent>();
+builder.Services.AddScoped<ISvEnrollment, SvEnrollment>();
+
+
 
 builder.Services.AddControllers()
     .AddNewtonsoftJson(x =>

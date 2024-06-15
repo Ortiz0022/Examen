@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Entities;
+using Microsoft.AspNetCore.Mvc;
+using Service.C_Course;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +10,33 @@ namespace ExamenFinal.Controllers
     [ApiController]
     public class CourseController : ControllerBase
     {
+        private ISvCourse svCourse;
+
+        public CourseController(ISvCourse svCourse)
+        {
+            this.svCourse = svCourse;
+        }
+
         // GET: api/<CourseController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Course> Get()
         {
-            return new string[] { "value1", "value2" };
+            return svCourse.GetAllCourses();
         }
 
         // GET api/<CourseController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Course Get(int id)
         {
-            return "value";
+            return svCourse.Get_ById(id);
         }
 
         // POST api/<CourseController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Course course)
         {
+            svCourse.Add_Courses(course);
         }
 
-        // PUT api/<CourseController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<CourseController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }

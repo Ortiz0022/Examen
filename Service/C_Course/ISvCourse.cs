@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entities;
 
 namespace Service.C_Course
 {
-    internal interface ISvCourse
+    public interface ISvCourse
     {
+        public List<Course> GetAllCourses();
+        public Course Add_Courses(Course course);
+        public Course Get_ById(int id);
     }
 }

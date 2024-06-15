@@ -1,0 +1,16 @@
+C:\Users\Angélica\Desktop\Final\Examen\Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\Angélica\Desktop\Final\Examen\Service\bin\Debug\net7.0\Service.dll
+C:\Users\Angélica\Desktop\Final\Examen\Service\bin\Debug\net7.0\Service.pdb
+C:\Users\Angélica\Desktop\Final\Examen\Service\bin\Debug\net7.0\Entities.dll
+C:\Users\Angélica\Desktop\Final\Examen\Service\bin\Debug\net7.0\Entities.pdb
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.sourcelink.json
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.csproj.Up2Date
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.dll
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\Service.pdb
+C:\Users\Angélica\Desktop\Final\Examen\Service\obj\Debug\net7.0\ref\Service.dll

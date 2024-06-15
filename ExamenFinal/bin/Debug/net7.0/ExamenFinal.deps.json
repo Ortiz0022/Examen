@@ -8,9 +8,11 @@
     ".NETCoreApp,Version=v7.0": {
       "ExamenFinal/1.0.0": {
         "dependencies": {
+          "Entities": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.18",
           "Microsoft.AspNetCore.OpenApi": "7.0.18",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.18",
+          "Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -190,6 +192,24 @@
             "fileVersion": "6.5.0.0"
           }
         }
+      },
+      "Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.18"
+        },
+        "runtime": {
+          "Entities.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.18",
+          "Microsoft.EntityFrameworkCore.InMemory": "7.0.18"
+        },
+        "runtime": {
+          "Service.dll": {}
+        }
       }
     }
   },
@@ -366,6 +386,16 @@
       "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

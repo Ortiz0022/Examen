@@ -1,9 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Entities;
 
 namespace Service.MyDbContext
@@ -16,9 +11,28 @@ namespace Service.MyDbContext
             optionsBuilder.UseInMemoryDatabase("MyDatabase");
         }
 
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Enrollment> Enrollments { get; set; }
+        public DbSet<Level> Levels { get; set; }
+        public DbSet<Major> Majors { get; set; }
+        public DbSet<Student> Students { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Course>()
+                .HasMany(c => c.Students)
+                .WithOne(s => s.Courses);
 
+
+            modelBuilder.Entity<Major>()
+                .HasMany(m => m.Courses)
+                .WithOne(c => c.Majors)
+                .HasForeignKey(c => c.MajorId);
+
+            modelBuilder.Entity<Course>()
+               .HasOne(c => c.Levels)
+               .WithMany(l => l.Courses)
+               .HasForeignKey(c => c.LevelId);
         }
     }
 }

@@ -395,6 +395,34 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.18"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.18",
+          "Microsoft.EntityFrameworkCore.InMemory": "7.0.18"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
+        }
       }
     }
   },
@@ -1223,13 +1251,25 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Service.csproj",
+      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Entities >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 7.0.18",
       "Microsoft.AspNetCore.OpenApi >= 7.0.18",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.18",
+      "Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -1240,11 +1280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angélica\\Desktop\\ExamenFinal\\ExamenFinal\\ExamenFinal.csproj",
+      "projectUniqueName": "C:\\Users\\Angélica\\Desktop\\Final\\Examen\\ExamenFinal\\ExamenFinal.csproj",
       "projectName": "ExamenFinal",
-      "projectPath": "C:\\Users\\Angélica\\Desktop\\ExamenFinal\\ExamenFinal\\ExamenFinal.csproj",
+      "projectPath": "C:\\Users\\Angélica\\Desktop\\Final\\Examen\\ExamenFinal\\ExamenFinal.csproj",
       "packagesPath": "C:\\Users\\Angélica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Angélica\\Desktop\\ExamenFinal\\ExamenFinal\\obj\\",
+      "outputPath": "C:\\Users\\Angélica\\Desktop\\Final\\Examen\\ExamenFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1264,7 +1304,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Angélica\\Desktop\\Final\\Examen\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Angélica\\Desktop\\Final\\Examen\\Entities\\Entities.csproj"
+            },
+            "C:\\Users\\Angélica\\Desktop\\Final\\Examen\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\Angélica\\Desktop\\Final\\Examen\\Service\\Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

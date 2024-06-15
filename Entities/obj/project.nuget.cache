@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5FsNw6IyFNr9BY3Svr25pY5L/SZZGn6hMGZlTTLfxIledB23Z4Xjo62CVIwTqZbJDUqTlx/MmtHy9loqTmLzgQ==",
+  "dgSpecHash": "7be0Oe5EzgDRlValNj8bPfX9e6Kz5XALBWxOjQpxlqbuKj0WHrhMwhH22CDcI07JqTyXBh75NSi547CpFJl/LQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Angélica\\Desktop\\ExamenFinal\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Angélica\\Desktop\\Final\\Examen\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Angélica\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.18\\microsoft.aspnetcore.jsonpatch.7.0.18.nupkg.sha512",
     "C:\\Users\\Angélica\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.18\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.18.nupkg.sha512",
